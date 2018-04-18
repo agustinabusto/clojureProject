@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: sunog:0.0.4">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/sunog/sunog/0.0.4/sunog-0.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
