@@ -1,0 +1,1082 @@
+[2016-11-07 15:10:23,486][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking Handler 'RequestURIBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,486][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking Handler 'SOAPActionBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,486][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking Handler 'RequestURIOperationDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,486][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking Handler 'SOAPMessageBodyBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking Handler 'HTTPLocationBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking post-conditions for phase "Dispatch"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.addressing.AddressingHelper] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] isReplyRedirected: ReplyTo is null. Returning false
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking pre-condition for Phase "RMPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking phase "RMPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking post-conditions for phase "RMPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking pre-condition for Phase "OpPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking phase "OpPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking post-conditions for phase "OpPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking pre-condition for Phase "OperationInPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking phase "OperationInPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Checking post-conditions for phase "OperationInPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "OperationInPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "OpPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "RMPhase"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "Dispatch"
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'HTTPLocationBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'SOAPMessageBodyBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,487][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'RequestURIOperationDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'SOAPActionBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'RequestURIBasedDispatcher' in Phase 'Dispatch'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "PreDispatch"
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "Security"
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "Addressing"
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'AddressingBasedDispatcher' in Phase 'Addressing'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() in Phase "Transport"
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'SOAPActionBasedDispatcher' in Phase 'Transport'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axis2.engine.Phase] [MessageContext: logID=51e998c52430af6b7a1d7689ef069bf6b342a9cd3f0f499f] Invoking flowComplete() for Handler 'RequestURIBasedDispatcher' in Phase 'Transport'
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: {http://RF/WSRegFact.tws}RegistrarFacturaResponse
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: {http://RF/WSRegFact.tws}resultado
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: {http://RF/WSRegFact.tws}resultado
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:10:23,488][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: {http://RF/WSRegFact.tws}RegistrarFacturaResponse
+[2016-11-07 15:24:44,748][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] Binding Name    ={http://RF/WSRegFact.tws}WSRegFactSoapSoapBinding
+[2016-11-07 15:24:44,750][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder]   isSOAPBinding =true
+[2016-11-07 15:24:44,750][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder]   isHttpBinding =false
+[2016-11-07 15:24:44,750][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder]   isRPC         =false
+[2016-11-07 15:24:44,750][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder]   Binding Operation  =RegistrarFactura
+[2016-11-07 15:24:44,750][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder]     SOAPStyle  =null
+[2016-11-07 15:24:44,752][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,752][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]  Parameter add on object org.apache.axis2.description.ParameterIncludeImpl@183c7b0c
+[2016-11-07 15:24:44,753][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Key =interface
+[2016-11-07 15:24:44,753][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value =WSRegFactPortType
+[2016-11-07 15:24:44,753][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Class = java.lang.String
+[2016-11-07 15:24:44,753][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Classloader = null
+[2016-11-07 15:24:44,754][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] Call Stack = DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.debugParameterAdd(ParameterIncludeImpl.java:352)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.addParameter(ParameterIncludeImpl.java:128)
+	DEBUG_FRAME = org.apache.axis2.description.AxisDescription.addParameter(AxisDescription.java:108)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populatePortType(WSDL11ToAxisServiceBuilder.java:591)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateEndpoints(WSDL11ToAxisServiceBuilder.java:483)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:373)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]  Parameter add on object org.apache.axis2.description.ParameterIncludeImpl@183c7b0c
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Key =interface
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value =WSRegFactPortType
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Class = java.lang.String
+[2016-11-07 15:24:44,755][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Classloader = null
+[2016-11-07 15:24:44,756][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] Call Stack = DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.debugParameterAdd(ParameterIncludeImpl.java:352)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.addParameter(ParameterIncludeImpl.java:134)
+	DEBUG_FRAME = org.apache.axis2.description.AxisDescription.addParameter(AxisDescription.java:108)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populatePortType(WSDL11ToAxisServiceBuilder.java:591)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateEndpoints(WSDL11ToAxisServiceBuilder.java:483)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:373)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.AxisService] Get operation for {http://RF/WSRegFact.tws}RegistrarFactura
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.AxisService] Target namespace: http://RF/WSRegFact.tws
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.AxisService] Operations aliases map: {}
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.AxisService] Imported namespaces: []
+[2016-11-07 15:24:44,757][DEBUG][org.apache.axis2.description.AxisService] Found axis operation:  null
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11ActionHelper] No wsaw:Action attribute found
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11DefaultActionPatternHelper] generateActionFromInputElement result: http://RF/WSRegFact.tws/WSRegFactPortType/RegistrarFacturaRequest
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11ActionHelper] http://RF/WSRegFact.tws/WSRegFactPortType/RegistrarFacturaRequest
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11ActionHelper] No wsaw:Action attribute found
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11DefaultActionPatternHelper] generateActionFromOutputElement result: http://RF/WSRegFact.tws/WSRegFactPortType/RegistrarFacturaResponse
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.addressing.wsdl.WSDL11ActionHelper] http://RF/WSRegFact.tws/WSRegFactPortType/RegistrarFacturaResponse
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisOperation] setWsamappinglist
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisService] Get operation for {http://RF/WSRegFact.tws}RegistrarFactura
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisService] Found axis operation:  org.apache.axis2.description.OutInAxisOperation@130d332b
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] WSDL Binding Operation: {http://RF/WSRegFact.tws}RegistrarFactura, SOAPAction: http://RF/WSRegFact.tws/RegistrarFactura
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisOperation] Entry: AxisOperation::setSoapAction, previous soapAction: null updated soapAction: http://RF/WSRegFact.tws/RegistrarFactura
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisOperation] Exit: AxisOperation::setSoapAction
+[2016-11-07 15:24:44,758][DEBUG][org.apache.axis2.description.AxisService] mapActionToOperation: Mapping Action to Operation: action: http://RF/WSRegFact.tws/RegistrarFactura; operation: org.apache.axis2.description.OutInAxisOperation@130d332bnamed: {http://RF/WSRegFact.tws}RegistrarFactura
+[2016-11-07 15:24:44,759][DEBUG][org.apache.axis2.description.AxisService] DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.mapActionToOperation(AxisService.java:821)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.copyExtensibleElements(WSDL11ToAxisServiceBuilder.java:2567)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateBinding(WSDL11ToAxisServiceBuilder.java:688)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateEndpoint(WSDL11ToAxisServiceBuilder.java:552)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateEndpoints(WSDL11ToAxisServiceBuilder.java:503)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:373)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] Extensibility Element type is:{http://schemas.xmlsoap.org/wsdl/soap/}body
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] Extensibility Element class is:com.ibm.wsdl.extensions.soap.SOAPBodyImpl
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] SOAP body parts have not been set. All the parts in the message were added to the message.
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] Extensibility Element type is:{http://schemas.xmlsoap.org/wsdl/soap/}body
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] Extensibility Element class is:com.ibm.wsdl.extensions.soap.SOAPBodyImpl
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.description.WSDL11ToAxisServiceBuilder] SOAP body parts have not been set. All the parts in the message were added to the message.
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.wsdl.util.WSDLDefinitionWrapper] WSDLDefinitionWrapper(Definition,AxisConfiguration) entry 
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.wsdl.util.WSDLDefinitionWrapper] setupMemoryParms(AxisConfiguration) entry
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.wsdl.util.WSDLDefinitionWrapper] AxisConfiguration is null.  This is unexpected
+[2016-11-07 15:24:44,760][DEBUG][org.apache.axis2.wsdl.util.WSDLWrapperBasicImpl] WSDLWrapperBasicImpl(Definition def, URL wURL) called
+[2016-11-07 15:24:44,761][DEBUG][org.apache.axis2.wsdl.util.WSDLWrapperBasicImpl] DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.wsdl.util.WSDLWrapperBasicImpl.<init>(WSDLWrapperBasicImpl.java:100)
+	DEBUG_FRAME = org.apache.axis2.wsdl.util.WSDLDefinitionWrapper.prepare(WSDLDefinitionWrapper.java:296)
+	DEBUG_FRAME = org.apache.axis2.wsdl.util.WSDLDefinitionWrapper.<init>(WSDLDefinitionWrapper.java:131)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:389)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.wsdl.util.WSDLWrapperBasicImpl] WSDLWrapperBasicImpl.prepare()
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]  Parameter add on object org.apache.axis2.description.ParameterIncludeImpl@183c7b0c
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Key =wsdl4jDefinition
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Class = org.apache.axis2.wsdl.util.WSDLDefinitionWrapper
+[2016-11-07 15:24:44,762][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Classloader = sun.misc.Launcher$AppClassLoader@28d93b30
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] Call Stack = DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.debugParameterAdd(ParameterIncludeImpl.java:352)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.addParameter(ParameterIncludeImpl.java:128)
+	DEBUG_FRAME = org.apache.axis2.description.AxisDescription.addParameter(AxisDescription.java:108)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:395)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]  Parameter add on object org.apache.axis2.description.ParameterIncludeImpl@183c7b0c
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Key =wsdl4jDefinition
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Class = org.apache.axis2.wsdl.util.WSDLDefinitionWrapper
+[2016-11-07 15:24:44,763][DEBUG][org.apache.axis2.description.ParameterIncludeImpl]   Value Classloader = sun.misc.Launcher$AppClassLoader@28d93b30
+[2016-11-07 15:24:44,764][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] Call Stack = DEBUG_FRAME = org.apache.axis2.util.JavaUtils.callStackToString(JavaUtils.java:564)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.debugParameterAdd(ParameterIncludeImpl.java:352)
+	DEBUG_FRAME = org.apache.axis2.description.ParameterIncludeImpl.addParameter(ParameterIncludeImpl.java:134)
+	DEBUG_FRAME = org.apache.axis2.description.AxisDescription.addParameter(AxisDescription.java:108)
+	DEBUG_FRAME = org.apache.axis2.description.WSDL11ToAxisServiceBuilder.populateService(WSDL11ToAxisServiceBuilder.java:395)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2351)
+	DEBUG_FRAME = org.apache.axis2.description.AxisService.createClientSideAxisService(AxisService.java:2304)
+	DEBUG_FRAME = org.apache.axis2.client.ServiceClient.<init>(ServiceClient.java:225)
+	DEBUG_FRAME = clj_soap.core$make_client.invoke(core.clj:108)
+	DEBUG_FRAME = clj_soap.core$client_proxy.invoke(core.clj:140)
+	DEBUG_FRAME = clj_soap.core$client_fn.invoke(core.clj:149)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invokeStatic(call_soap.clj:8)
+	DEBUG_FRAME = ss.soap.call_soap$llamar_bpm_generar_factura.invoke(call_soap.clj:6)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invokeStatic(api_services.clj:14)
+	DEBUG_FRAME = ss.routes.api_services$call_bpm_instance.invoke(api_services.clj:13)
+	DEBUG_FRAME = ss.routes.services$fn__14737$fn__14783.invoke(services.clj:99)
+	DEBUG_FRAME = compojure.core$make_route$fn__2039.invoke(core.clj:135)
+	DEBUG_FRAME = compojure.core$wrap_route_middleware$fn__2032.invoke(core.clj:122)
+	DEBUG_FRAME = compojure.core$wrap_route_info$fn__2036.invoke(core.clj:126)
+	DEBUG_FRAME = compojure.core$if_route$fn__2004.invoke(core.clj:45)
+	DEBUG_FRAME = compojure.core$if_method$fn__1994.invoke(core.clj:27)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.invoke(RestFn.java:423)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invokeStatic(services.clj:24)
+	DEBUG_FRAME = ss.routes.services$fn__14737.invoke(services.clj:24)
+	DEBUG_FRAME = compojure.core$if_context$fn__2108.invoke(core.clj:218)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = compojure.api.core$handle$fn__11165.invoke(core.clj:8)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.api.core$handle.invokeStatic(core.clj:8)
+	DEBUG_FRAME = compojure.api.core$handle.invoke(core.clj:7)
+	DEBUG_FRAME = clojure.core$partial$fn__4759.invoke(core.clj:2515)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = ring.middleware.http_response$wrap_http_response$fn__5881.invoke(http_response.clj:8)
+	DEBUG_FRAME = ring.swagger.middleware$wrap_swagger_data$fn__8433.invoke(middleware.clj:33)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:117)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = ring.middleware.format_params$wrap_format_params$fn__5022.invoke(format_params.clj:119)
+	DEBUG_FRAME = compojure.api.middleware$wrap_exceptions$fn__9641.invoke(middleware.clj:43)
+	DEBUG_FRAME = ring.middleware.format_response$wrap_format_response$fn__5785.invoke(format_response.clj:183)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.nested_params$wrap_nested_params$fn__5971.invoke(nested_params.clj:84)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = compojure.api.middleware$wrap_options$fn__9651.invoke(middleware.clj:74)
+	DEBUG_FRAME = compojure.api.routes.Route.invoke(routes.clj:74)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = compojure.core$routing$fn__2046.invoke(core.clj:151)
+	DEBUG_FRAME = clojure.core$some.invokeStatic(core.clj:2592)
+	DEBUG_FRAME = clojure.core$some.invoke(core.clj:2583)
+	DEBUG_FRAME = compojure.core$routing.invokeStatic(core.clj:151)
+	DEBUG_FRAME = compojure.core$routing.doInvoke(core.clj:148)
+	DEBUG_FRAME = clojure.lang.RestFn.applyTo(RestFn.java:139)
+	DEBUG_FRAME = clojure.core$apply.invokeStatic(core.clj:648)
+	DEBUG_FRAME = clojure.core$apply.invoke(core.clj:641)
+	DEBUG_FRAME = compojure.core$routes$fn__2050.invoke(core.clj:156)
+	DEBUG_FRAME = ring.middleware.cors$wrap_cors$fn__17507.invoke(cors.clj:154)
+	DEBUG_FRAME = clojure.lang.Var.invoke(Var.java:379)
+	DEBUG_FRAME = ring.middleware.reload$wrap_reload$fn__16555.invoke(reload.clj:22)
+	DEBUG_FRAME = selmer.middleware$wrap_error_page$fn__16574.invoke(middleware.clj:9)
+	DEBUG_FRAME = prone.middleware$wrap_exceptions$fn__16772.invoke(middleware.clj:122)
+	DEBUG_FRAME = ring.middleware.session$wrap_session$fn__17178.invoke(session.clj:102)
+	DEBUG_FRAME = ring.middleware.keyword_params$wrap_keyword_params$fn__5919.invoke(keyword_params.clj:35)
+	DEBUG_FRAME = ring.middleware.params$wrap_params$fn__6061.invoke(params.clj:64)
+	DEBUG_FRAME = ring.middleware.absolute_redirects$wrap_absolute_redirects$fn__17387.invoke(absolute_redirects.clj:38)
+	DEBUG_FRAME = ring.middleware.content_type$wrap_content_type$fn__11269.invoke(content_type.clj:30)
+	DEBUG_FRAME = ring.middleware.default_charset$wrap_default_charset$fn__17362.invoke(default_charset.clj:26)
+	DEBUG_FRAME = ring.middleware.not_modified$wrap_not_modified$fn__11298.invoke(not_modified.clj:52)
+	DEBUG_FRAME = immutant.web.internal.undertow$create_http_handler$reify__19881.handleRequest(undertow.clj:239)
+	DEBUG_FRAME = org.projectodd.wunderboss.web.undertow.async.websocket.UndertowWebsocket$2.handleRequest(UndertowWebsocket.java:107)
+	DEBUG_FRAME = io.undertow.server.session.SessionAttachmentHandler.handleRequest(SessionAttachmentHandler.java:68)
+	DEBUG_FRAME = io.undertow.server.Connectors.executeRootHandler(Connectors.java:199)
+	DEBUG_FRAME = io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:778)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	DEBUG_FRAME = java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	DEBUG_FRAME = java.lang.Thread.run(Thread.java:745)
+
+[2016-11-07 15:24:44,764][DEBUG][org.apache.axis2.description.ParameterIncludeImpl] ==================
+[2016-11-07 15:24:44,765][DEBUG][org.apache.axis2.util.Loader] Trying to find [org/apache/axis2/deployment/axis2_default.xml] using sun.misc.Launcher$AppClassLoader@28d93b30 class loader.
+[2016-11-07 15:24:44,768][DEBUG][org.apache.axiom.om.util.StAXUtils] XMLStreamReader is org.apache.axiom.util.stax.dialect.Woodstox4StreamReaderWrapper
+[2016-11-07 15:24:44,769][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,769][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] SPACE: 
+[2016-11-07 15:24:44,770][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,770][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: axisconfig
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,771][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,772][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,772][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,772][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,772][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,772][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,796][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: deployer
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: deployer
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: deployer
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: deployer
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,797][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceivers
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceiver
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,798][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageReceivers
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatters
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatter
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageFormatters
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,799][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilders
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilder
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilder
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilder
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilder
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: messageBuilders
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,800][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,894][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportReceiver
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axis2.context.ConfigurationContext] Invoke modules shutdown.
+[2016-11-07 15:24:44,895][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] Connection reclaimed by garbage collector, hostConfig=HostConfiguration[host=http://10.10.1.137:9080]
+[2016-11-07 15:24:44,895][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,896][DEBUG][org.apache.axis2.context.ConfigurationContext] Modules to be shutdown from axisConfiguration: {}
+[2016-11-07 15:24:44,896][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+[2016-11-07 15:24:44,896][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,896][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+[2016-11-07 15:24:44,896][DEBUG][org.apache.axis2.context.ConfigurationContext] Invoke services shutdown.
+[2016-11-07 15:24:44,896][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] Notifying no-one, there are no waiting threads
+[2016-11-07 15:24:44,896][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,897][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] Connection reclaimed by garbage collector, hostConfig=HostConfiguration[host=http://10.10.1.137:9080]
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportReceiver
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+[2016-11-07 15:24:44,897][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] enter HttpConnectionManager.ConnectionPool.getHostPool(HostConfiguration)
+[2016-11-07 15:24:44,897][DEBUG][org.apache.commons.httpclient.MultiThreadedHttpConnectionManager] Notifying no-one, there are no waiting threads
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,897][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axis2.context.ConfigurationContext] Invoke modules shutdown.
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axis2.context.ConfigurationContext] Modules to be shutdown from axisConfiguration: {}
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axis2.context.ConfigurationContext] Invoke services shutdown.
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,898][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,899][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: parameter
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] END_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: transportSender
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder]   QName: phaseOrder
+[2016-11-07 15:24:44,900][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,901][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] COMMENT: 
+[2016-11-07 15:24:44,901][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] CHARACTERS: 
+[2016-11-07 15:24:44,901][DEBUG][org.apache.axiom.om.impl.builder.StAXOMBuilder] START_ELEMENT: 

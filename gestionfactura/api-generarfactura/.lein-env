@@ -1,0 +1,1 @@
+{"dataSource.adapter" "mysql", "dataSource.username" "root", "dataSource.password" "root", "dataSource.schema" "sigrhu", "dataSource.host" "localhost", "dataSource.port" 5900, "dataSource.url" "jdbc:mysql://localhost:3306/sigrhu?user=root&password=root"}

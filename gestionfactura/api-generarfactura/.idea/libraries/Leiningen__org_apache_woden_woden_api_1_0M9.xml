@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: org.apache.woden/woden-api:1.0M9">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/woden/woden-api/1.0M9/woden-api-1.0M9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
